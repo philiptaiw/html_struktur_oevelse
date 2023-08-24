@@ -1,0 +1,19 @@
+.grid_1-1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+
+img {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+footer {
+  text-align: center;
+}
